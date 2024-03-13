@@ -1,34 +1,34 @@
 //create an array in which we collec user data and add in our array
 
-// let = addArray =  prompt('Enter Your Value want to add in array');
-// let = addArray2 = prompt('Enter Your Value want to add in array');
-// let = addArray3 = prompt('Enter Your Value want to add in array');
-// let = addArray4 = prompt('Enter Your Value want to add in array');
-// let = addArray5 = prompt('Enter Your Value want to add in array');
-// // console.log('emptyArray--> is', emptyArray);
-// let emptyArray = [];
-//  emptyArray.push (addArray) ; 
-//  emptyArray.push (addArray2) ; 
-//  emptyArray.push (addArray3) ; 
-//  emptyArray.push (addArray4) ; 
-//  emptyArray.push (addArray5) ; 
-//  console.log('after take prompt emptyArray is --> ', emptyArray)
+let = addArray =  prompt('Enter Your Value want to add in array');
+let = addArray2 = prompt('Enter Your Value want to add in array');
+let = addArray3 = prompt('Enter Your Value want to add in array');
+let = addArray4 = prompt('Enter Your Value want to add in array');
+let = addArray5 = prompt('Enter Your Value want to add in array');
+// console.log('emptyArray--> is', emptyArray);
+let emptyArray = [];
+ emptyArray.push (addArray) ; 
+ emptyArray.push (addArray2) ; 
+ emptyArray.push (addArray3) ; 
+ emptyArray.push (addArray4) ; 
+ emptyArray.push (addArray5) ; 
+ console.log('after take prompt emptyArray is --> ', emptyArray)
 
-//  emptyArray.pop();
-//  console.log('after used pop method emptyArray is -->', emptyArray);
+ emptyArray.pop();
+ console.log('after used pop method emptyArray is -->', emptyArray);
 
-//  emptyArray.shift();
-//  console.log('after used shift method emptyArray is -->', emptyArray);
+ emptyArray.shift();
+ console.log('after used shift method emptyArray is -->', emptyArray);
 
-//  emptyArray.unshift(addArray5);
-//  console.log('after used unshift method emptyArray is -->', emptyArray);
+ emptyArray.unshift(addArray5);
+ console.log('after used unshift method emptyArray is -->', emptyArray);
 
-//  let element5Array = ['Ramadan', 'Eid-ul-Fitr', 30, true, false];
+ let element5Array = ['Ramadan', 'Eid-ul-Fitr', 30, true, false];
 
-// console.log ('This Array contain 5 element different data types ==>', element5Array);
-// console.log ('length of this array is ==>', element5Array.length);
-// console.log ('First Index of this array is ==>', element5Array[0]);
-// console.log ('last Index of this array is ==>', element5Array[4]);
+console.log ('This Array contain 5 element different data types ==>', element5Array);
+console.log ('length of this array is ==>', element5Array.length);
+console.log ('First Index of this array is ==>', element5Array[0]);
+console.log ('last Index of this array is ==>', element5Array[4]);
 
 let studentNameArray = ['Shadan-Shakil', 'Rumi-Bin-Fahad', 'Ahad-Jan'];
 let studentScores = [446, 373, 413];
