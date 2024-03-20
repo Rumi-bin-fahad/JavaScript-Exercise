@@ -1,6 +1,6 @@
 
 
-// Q1
+Q1 
 let value1 = 10;
 let value2 = 15;
 // addition
