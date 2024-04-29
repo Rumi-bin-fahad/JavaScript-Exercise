@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    color: black; /* Default text color */
+}
+input[type="text"] {
+    padding: 8px;
+    margin: 5px;
+    width: 200px;
+}
+input[type="range"] {
+    margin: 5px;
+    width: 200px;
+}
+input[type="button"] {
+    padding: 8px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+}
