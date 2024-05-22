@@ -11,8 +11,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 500px;
-    width: 500px;
+    min-height: 300px;
+    min-width: 300px;
     margin: 0 auto;
     border: 5px solid black;
     padding: 20px;
@@ -37,12 +37,14 @@ input{
 .nav{
     display: flex;
     gap:  20px;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 .heading{
     font-size: 30px;
 }
  button{
-    width: 70px;
+    /* width: 70px; */
     height: 30px;
     border: none;
     border-radius: 20px;

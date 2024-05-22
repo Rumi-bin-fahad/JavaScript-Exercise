@@ -1,6 +1,5 @@
 // let heading = document.getElementById('heading');
 // let text = document.getElementById('text');
-
 let para = document.getElementById('para')
 function bold(){
     // text.style.fontWeight='800'
@@ -41,4 +40,8 @@ function align_Right(){
 let color_change = document.getElementById('color1');
 function color_change1(){
     para.style.color = color_change.value
+}
+function LowerCase(){
+    para.innerText.toLocaleLowerCase();
+
 }
