@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Finance App</h1>
+        <div class="input-section">
+            <input type="number" id="amount" placeholder="Enter Amount">
+            <input type="text" id="description" placeholder="Enter Description (for Expenditure)">
+            <div class="buttons">
+                <button id="income-btn">Income</button>
+                <button id="expenditure-btn">Expenditure</button>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info-box" id="income">Income<br><span>0</span></div>
+            <div class="info-box" id="expenditure">Expenditure<br><span>0</span></div>
+            <div class="info-box" id="balance">Balance<br><span>0</span></div>
+            <div class="info-box" id="savings-loss">Savings/Loss<br><span>0</span></div>
+        </div>
+        <div class="transaction-history">
+            <h2 >Transaction History</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Transaction Type</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Amount</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody id="transaction-list">
+                    <!-- Transactions will be appended here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

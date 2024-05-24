@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-image: url(https://img.pikbest.com/wp/202343/dollar-money-abstract-texture-vibrant-dollars-background-in-a-business-setting_9943037.jpg!sw800);
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: #000000; */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #01a114;
+    /* backdrop-filter: blur 10px; */
+    padding: 20px;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(128, 255, 0);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.input-section {
+    margin: 20px 0;
+}
+
+#amount, #description {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(28, 27, 27, 0.2);
+    background-color: #04ea1b;
+    color: rgb(254, 251, 251);
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #02770d;
+    
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    /* padding: 10px; */
+}
+
+.info-box {
+    background: #fefbfb;
+    padding: 20px;
+    margin: 3px;
+    box-shadow: #03f728 0 0 10px;
+    border: 3px solid #04d12d;
+    color: black;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.info-box span {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.transaction-history {
+    margin-top: 20px;
+}
+
+.transaction-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.transaction-history th, .transaction-history td {
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+.transaction-history th {
+    background-color: #0d0d0d;
+    color: rgb(255, 255, 255);
+}
+
+.transaction-history td {
+    background-color: #79fb73;
+    color: black;
+}
+
+.balance-negative {
+    color: #ff0000;
+}
+.h2{
+    color: black;
+}
+  

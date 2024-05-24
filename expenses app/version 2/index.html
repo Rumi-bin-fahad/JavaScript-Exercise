@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>آسان کھاتا</h1>
+        <div class="input-section">
+            <input style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" type="number" id="amount" placeholder="رقم درج کیجئے">
+            <input style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" type="text" id="description" placeholder="تفصیل بتایئے">
+            <div class="buttons">
+                <button id="income-btn">آمدنی</button>
+                <button id="expenditure-btn">اخراجات</button>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info-box" id="income">آمدنی<br><span>0</span></div>
+            <div class="info-box" id="expenditure">خرچہ<br><span>0</span></div>
+            <div class="info-box" id="balance">بقیہ رقم <br><span>0</span></div>
+            <div class="info-box" id="savings-loss">نقصان/بچت<br><span>0</span></div>
+        </div>
+        <div class="transaction-history">
+            <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">اخراجات کی تفصیل</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">اخراجاتی مقصد</th>
+                        <th style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">تاریخ </th>
+                        <th style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">وقت</th>
+                        <th style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">رقم</th>
+                        <th style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">تفصیل</th>
+                    </tr>
+                </thead>
+                <tbody id="transaction-list">
+                    <!-- Transactions will be appended here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: #121212; */
+    color: #fff;
+    background-image: url(https://img.pikbest.com/wp/202343/dollar-money-abstract-texture-vibrant-dollars-background-in-a-business-setting_9943037.jpg!sw800);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+
+h1 {
+    color: #00bcd4;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.input-section {
+    margin: 20px 0;
+}
+
+#amount, #description {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+    background-color: #00bcd4;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #20def4;
+    box-shadow: 0 0 5px #9df0f9;
+    font-weight: bold;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.info-box {
+    background: #2a2a2a;
+    padding: 20px;
+    margin: 3px;
+    box-shadow: #0097a7 0 0 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid 2px #0097a7;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.info-box span {
+    display: block;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.transaction-history {
+    margin-top: 20px;
+}
+
+.transaction-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.transaction-history th, .transaction-history td {
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+.transaction-history th {
+    background-color: #00bcd4;
+}
+
+.transaction-history td {
+    background-color: #2a2a2a;
+}
+
+.balance-negative {
+    color: #ff0000;
+}
