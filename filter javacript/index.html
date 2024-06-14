@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Daraz.Pk</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search for products">
+            <button id="search-button">Search</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Filters</h2>
+            <label>
+                <input type="checkbox" class="filter" value="Free Delivery"> Free Delivery
+            </label>
+            <label>
+                <input type="checkbox" class="filter" value="Best Price Guaranteed"> Best Price Guaranteed
+            </label>
+            <label>
+                <input type="checkbox" class="filter" value="Authentic Brands"> Authentic Brands
+            </label>
+            <label>
+                <input type="checkbox" class="filter" value="Daraz Verified"> Daraz Verified
+            </label>
+            <label>
+                <input type="checkbox" class="filter" value="Cash On Delivery"> Cash On Delivery
+            </label>
+            <label>
+                <input type="checkbox" class="filter" value="Installment"> Installment
+            </label>
+        </div>
+        <div class="main-content">
+            <div class="sort-options">
+                <label for="sort">Sort By:</label>
+                <select id="sort">
+                    <option value="best-match">Best Match</option>
+                    <option value="price-low-high">Price Low to High</option>
+                    <option value="price-high-low">Price High to Low</option>
+                    <option value="rating">Rating</option>
+                </select>
+            </div>
+            <div class="cards" id="cards">
+                <!-- Product cards will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
